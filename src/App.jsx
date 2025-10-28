@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Greeting from './components/Greeting'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <p className="text-gray-700 text-lg">
         Day 1: Learning Components and JSX
       </p>
+      <Greeting />
     </div>
   )
 }
